@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <nav class="navbar navbar-default">
-	  <a href="{{url('/')}}">Home</a>
+	  <a href="{{url('/')}}">Homeq</a>
       </nav>
     </div>
     @yield('content')
