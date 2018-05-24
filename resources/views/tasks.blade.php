@@ -59,9 +59,17 @@
                 <td>
 		    <form method="post" action="/task/{{$task->id}}">
 			{{method_field('DELETE')}}
+			
 			{{ csrf_field() }}
 			<button>
 			    <i class="fa fa-trash"></i>
+			</button>
+		    </form>
+		    <form method="post" action="/taskedit/{{$task->id}}">
+			
+			{{ csrf_field() }}
+			<button>
+			    <i class="fa fa-edit"></i>
 			</button>
 		    </form>
                 </td>
